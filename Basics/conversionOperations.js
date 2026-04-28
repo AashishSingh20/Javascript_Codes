@@ -20,6 +20,23 @@
 // "" => false
 // "Aashish" => true
 
-let someNumber = 12;
-let stringsomeNumber = String(someNumber);
-console.log(typeof stringsomeNumber);
+// let someNumber = 12;
+// let stringsomeNumber = String(someNumber);
+// console.log(typeof stringsomeNumber);
+
+
+// ***************** Operations ******************* //
+
+// let value = 3;
+// let negValue = -value;
+// console.log(negValue);
+
+// console.log("1" + 2);    // Will give 12
+// console.log(1 + "2");    // Will also give 12
+// console.log("1" + 2 + 2);  // Will give 122 as string in start => merge all characters 
+// console.log(1 + 2 + "2");  // Will give 32 as string in last => add non string values and attack string characters
+
+let gameCounter = 100;
+gameCounter++;
+console.log(gameCounter);
+
