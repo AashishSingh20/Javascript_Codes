@@ -10,7 +10,7 @@
 // let myCreateDate = new Date(2023, 0, 23);  //YYYY,M,DD
 // let myCreateDate = new Date(2023, 0, 23, 5, 3);  // YYYY, M, DD, Hr, Min
 // let myCreateDate = new Date("2023-04-19");
-let myCreateDate = new Date("04-19-2023");
+// let myCreateDate = new Date("04-19-2023");
 // console.log(myCreateDate.toLocaleString());
 
 // Time
@@ -20,9 +20,15 @@ let myCreateDate = new Date("04-19-2023");
 // console.log(myCreateDate.getTime());
 // console.log(Math.floor(Date.now()/1000));  // Gets time in seconds 
 
-let newDate = new Date();
-console.log(newDate);
+// let newDate = new Date();
+// console.log(newDate);
 
-newDate.toLocaleString('default',{
-    weekday: "long"
-})
+// newDate.toLocaleString('default',{
+//     weekday: "long"
+// })
+
+const dates = Date.now()
+console.log(dates)
+
+const now = new Date(1793881274819)
+console.log(now.toString())

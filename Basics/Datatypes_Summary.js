@@ -1,4 +1,4 @@
-// // Primitive
+// // Primitive(Are Immutable)
 // // 7 types: String, Number, Boolean, null, undefined, Symbol, BigInt
 
 // const score = 100;
@@ -7,14 +7,13 @@
 // const isLoggedIn = false;
 // const outsideTemp = null;
 
-// const id = Symbol('123')  // Sybol unique values to define karne ke liye use hota hai
+// const id = Symbol('123')  // Symbol unique values to define karne ke liye use hota hai
 // const anotherId = Symbol('123')
-
 // console.log(id == anotherId);
 
 // const bigNumber = 23932635436943n;  // BigInt
 
-// //Reference(Non-Primitive)
+// //Reference(Non-Primitive) (Mutable)
 // // Array, Objects, Functions
 
 // const heros = ["ShaktiMan", "Superman", "Thor"]
@@ -40,7 +39,7 @@
 
 // ++++++++++++++++++++++++++++++++++++ //
 
-// Stack (Primitive), Heap (Non-Primitive){Direct Reference}
+// Stack (Stores Primitive), Heap ( Stores Non-Primitive){Direct Reference}
 let name = "Aashish"
 let anotherName = name; // Creates another copy in stack
 anotherName = "Kushal";

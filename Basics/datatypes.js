@@ -4,7 +4,7 @@
 
 let name = "Aashish"  // string 
 let age = 20  // number
-let isLoggedIn = false  // false
+let isLoggedIn = false  // boolean
 
 // number => 2^53
 // string = ""
